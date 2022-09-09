@@ -1,0 +1,11 @@
+lista = [1,2,30,4,5]
+
+def media(arr):
+    total = 0
+    tamanho = len(arr)
+    for i in arr:
+        total = i + total
+        
+    return total / tamanho
+
+print(media(lista)){
